@@ -1,4 +1,5 @@
 #include "AnotherWorldRemake\Public\Player_Main.h"
+#include "GameFramework\CharacterMovementComponent.h"
 
 // Sets default values
 APlayer_Main::APlayer_Main()
@@ -12,7 +13,9 @@ APlayer_Main::APlayer_Main()
 void APlayer_Main::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	GetCharacterMovement()->MaxWalkSpeed = MaxWalkSpeed;
+	MaxRunSpeed = MaxWalkSpeed * 2.0f;
 }
 
 // Called every frame

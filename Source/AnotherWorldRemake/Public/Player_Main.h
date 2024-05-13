@@ -26,15 +26,15 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UPROPERTY(EditAnywhere, Blueprintable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float MaxWalkSpeed = 250.0f;
 	
-	UPROPERTY(EditAnywhere, Blueprintable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float MaxRunSpeed = 500.0f;
 	
-	UPROPERTY(EditAnywhere, Blueprintable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float MaxCrouchSpeed = 125.0f;
 	
-	UPROPERTY(EditAnywhere, Blueprintable)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float Acceleration = 3.0f;
 };

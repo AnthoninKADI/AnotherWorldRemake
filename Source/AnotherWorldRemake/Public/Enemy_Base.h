@@ -34,5 +34,5 @@ public:
 	float MaxRunSpeed = 500.0f;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float Acceleration = 3.0f;
+	float Acceleration2 = 500.0f;
 };

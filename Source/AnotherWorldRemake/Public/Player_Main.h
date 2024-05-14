@@ -36,6 +36,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float MaxCrouchSpeed = 125.0f;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float Acceleration = 3.0f;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, meta = (ToolTip = "Working Range is above 300.0"))
+	float Acceleration2 = 700.0f;
 };

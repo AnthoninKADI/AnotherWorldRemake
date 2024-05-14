@@ -23,7 +23,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int shieldHP;
-	int shieldLifeTime;
+	float shieldLifeTime = 50.f;
 
 };

@@ -15,7 +15,6 @@ void APlayer_Main::BeginPlay()
 	Super::BeginPlay();
 
 	GetCharacterMovement()->MaxWalkSpeed = MaxWalkSpeed;
-	MaxRunSpeed = MaxWalkSpeed * 2.0f;
 }
 
 // Called every frame

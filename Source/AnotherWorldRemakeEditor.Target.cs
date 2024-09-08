@@ -7,6 +7,7 @@ public class AnotherWorldRemakeEditorTarget : TargetRules
 {
 	public AnotherWorldRemakeEditorTarget( TargetInfo Target) : base(Target)
 	{
+		bOverrideBuildEnvironment = true;
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;

@@ -72,4 +72,5 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-.idea/.idea.AnotherWorldRemake/.idea/discord.xml
+.idea/*
+.vsconfig/*

@@ -8,7 +8,7 @@ public class AnotherWorldRemakeTarget : TargetRules
 	public AnotherWorldRemakeTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.V4;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
 		ExtraModuleNames.Add("AnotherWorldRemake");
 	}

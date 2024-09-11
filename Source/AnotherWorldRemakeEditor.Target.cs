@@ -9,7 +9,7 @@ public class AnotherWorldRemakeEditorTarget : TargetRules
 	{
 		bOverrideBuildEnvironment = true;
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.V4;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;
 		ExtraModuleNames.Add("AnotherWorldRemake");
 	}
